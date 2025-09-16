@@ -1,0 +1,11 @@
+- [x] Reduce glow on .logo span (navigation logo)
+- [x] Reduce glow on .hero-content h1 (main title)
+- [x] Reduce glow on .about h2 (About section title)
+- [x] Reduce glow on .benefit-item h3 (benefit titles)
+- [x] Reduce glow on .number (stats numbers)
+- [x] Reduce glow on .event-date (event dates)
+- [x] Reduce glow on .footer-logo span (footer logo)
+- [x] Reduce glow on .terminal-text (loading screen)
+- [x] Add scroll-triggered reveal effects to more elements (benefits, stats, event cards)
+- [x] Add parallax effect to hero section
+- [x] Add scroll-triggered scaling for code block
