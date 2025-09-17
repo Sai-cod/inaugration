@@ -1632,3 +1632,81 @@ footer {
     box-shadow: 0 12px 28px rgba(0, 183, 255, 0.4);
 }
 
+.photo-caption {
+    margin-top: 4px;   /* reduced from 10–12px */
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 183, 255, 0.3);
+    line-height: 1.3;  /* tighter line spacing */
+}
+
+.photo-caption .role {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-primary);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 2px;  /* reduced spacing */
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-caption {
+    margin-top: 6px;       /* tight spacing */
+    font-size: 1.4rem;     /* larger */
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 183, 255, 0.3);
+    line-height: 1.3;
+}
+
+.photo-caption {
+    margin-top: 6px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent-primary); /* blue accent */
+    text-align: center;
+    line-height: 1.3;
+    text-shadow: 
+        0 0 6px rgba(0, 183, 255, 0.6),
+        0 0 12px rgba(0, 183, 255, 0.5),
+        0 0 20px rgba(0, 183, 255, 0.4);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.photo-caption:hover {
+    transform: scale(1.05); /* slight zoom effect */
+    text-shadow: 
+        0 0 10px rgba(0, 220, 255, 0.8),
+        0 0 20px rgba(0, 220, 255, 0.7),
+        0 0 35px rgba(0, 220, 255, 0.6);
+}
+
+.photo-caption {
+    margin-top: 6px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent-primary); /* blue accent */
+    text-align: center;
+    line-height: 1.3;
+    text-shadow: 
+        0 0 4px rgba(0, 183, 255, 0.5),
+        0 0 8px rgba(0, 183, 255, 0.3);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.photo-caption:hover {
+    transform: scale(1.04); /* small zoom */
+    text-shadow: 
+        0 0 6px rgba(0, 220, 255, 0.6),
+        0 0 12px rgba(0, 220, 255, 0.4);
+}
+
+
